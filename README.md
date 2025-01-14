@@ -1,6 +1,8 @@
-# Com a chegada dos Generics no Go 1.18, a forma de lidar com coleções passou por uma revolução!
+# Generics em Go, a forma de lidar com coleções passou por uma revolução!
 
 Agora, com a ajuda dos iterators, podemos repensar como interagimos com conjuntos de dados, abrindo um leque de possibilidades para um código mais limpo, eficiente e reutilizável.
+
+Obs: Podemos utilizar generic apartir da versao 1.18 do Go 🤓  
 
 ## O problema das coleções antes dos Generics
 
@@ -35,7 +37,7 @@ Generics e iterators em Go permitem que você escreva código mais flexível, re
 Para executar esse script podemos rodar em nosso terminal o comando:
 
 ```bash
-go run cmd'/main.go
+go run cmd/main.go
 ```
 
 Devemos ter como resultado, uma entidade de produto pode ser um livro e um eletronico:
